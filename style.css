@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body{
+    direction:ltr;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbarIcon img{
+    width:50%;
+
+}
+
+.bold{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.italic{
+    font-style:italic;
+    text-align: center;
+    color:grey;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.portfolio-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width:30%
+
+}
+
+.row1{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    gap:15px ;
+    padding: 20px 5%;
+}
+
+
+.row2 {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    gap:15px ;
+    padding: 20px 5%;
+}
+
+.menu{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212529;
+    padding: 15px 5%;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.item{
+    margin:1%;
+}
+
+.item .link {
+    text-decoration: none;
+    color: white;
+}
+
+.imginrow {
+    width: 100%;
+    object-fit: cover;
+}
+
+.item .link:hover{
+    color:rgba(255, 200, 0, 0.9);
+}
+
+.portfolio-item:hover img {
+    opacity: 0.7;
+}
+
+.portfolio-item h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.portfolio-item p {
+    color: grey;
+    font-style: italic;
+    margin-bottom: 30px;
+}
